@@ -2,5 +2,96 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 19px;
 }
 
+.clearfix {
+    content:'';
+    clear:both;
+    display: table;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.left {
+    float: left;   
+}
+
+.right {
+    float: right;
+}
+
+header {
+    padding:20px 20px;
+    padding-bottom: 50px;
+}
+
+#logo {
+    padding-right:10px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+
+button {
+    padding: 3px 17px;
+    background-color: #0064ff;
+    text-decoration: none;
+    border:none;
+}
+
+button a {
+    color: white;
+}
+
+.azure {
+    background-color: azure;
+}
+
+.first-row {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.mini-testo {
+    padding-top: 30px;
+}
+
+.first-row h1 {
+    font-size: 90px;
+}
+
+.first-row img {
+    width:70%;
+    padding-left: 5%;
+    position: relative;
+    bottom: -80px;
+}
+
+.mini-testo p {
+    width: 30%;
+    float: left;
+}
+
+p:nth-child(2n) {
+    margin-top: 10px;
+}
+
+span {
+    font-size: 30px;
+}
