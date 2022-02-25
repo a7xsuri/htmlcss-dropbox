@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix {
@@ -13,6 +14,10 @@
 
 .top {
     margin-top: 20px;
+}
+
+.pad-top {
+    padding-top: 20px;
 }
 
 .left {
@@ -66,6 +71,7 @@ button a {
     margin: 0 auto;
     width: 90%;
     padding-top: 50px;
+    min-width: 1200px;
 }
 
 .mini-testo {
@@ -88,10 +94,102 @@ button a {
     float: left;
 }
 
-p:nth-child(2n) {
+button ~ p  {
     margin-top: 10px;
 }
 
 span {
     font-size: 30px;
+}
+
+.gen-row {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40vh;
+}
+
+.gen-row h2 {
+    font-size: 50px;
+}
+
+form {
+    padding-top: 30px;
+}
+
+label:first-of-type {
+    padding-right: 10px;
+}
+
+.columns {
+    min-width: 1200px;
+}
+
+.col {
+    width: 30%;
+    border: 1px solid black;
+    height: 110vh;
+}
+
+.col p:first-child {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.testo-col {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.testo-col p, .testo-col li {
+    font-size: 14px;
+}
+
+.mese {
+    color: #6a6868;
+    padding-top: 10px;
+}
+
+.prova {
+    padding: 5px 30px;
+    background-color: #0064ff;
+    text-decoration: none;
+    border: none
+}
+
+.prova a {
+    font-size: 15px;
+}
+
+.ora {
+    color:#0064ff;
+    text-decoration-line: underline;
+    font-size: 14px;
+}
+
+hr {
+    width: 30%;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.true {
+    color:#0064ff;
+    font-size: 15px;
+}
+
+.center {
+    margin: 20px 5%;
+}
+
+.row {
+    width: 100%;
 }
