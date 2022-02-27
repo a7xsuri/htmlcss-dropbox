@@ -127,10 +127,9 @@ label:first-of-type {
 .col {
     width: 30%;
     border: 1px solid black;
-    height: 110vh;
 }
 
-.col p:first-child {
+.col p:first-child, .low-row p:first-child {
     border-bottom: 1px solid black;
     text-align: center;
 }
@@ -139,15 +138,14 @@ label:first-of-type {
     width: 80%;
     margin: 0 auto;
     padding-top: 10px;
-    min-height: 100vh;
 }
 
 h3 {
-    font-size: 25px;
+    font-size:25px ;
 }
 
 .testo-col p, .testo-col li {
-    font-size: 14px;
+    font-size:14px;
 }
 
 .mese {
@@ -190,6 +188,16 @@ li {
     margin: 20px 5%;
 }
 
-.row {
+.low-row {
     width: 100%;
+    margin-top: 50px;
+    border: 1px black solid;
+}
+
+.row .sott-tit {
+    padding-top: 10px;
+}
+
+.testo-row {
+    padding: 20px 10px;
 }
