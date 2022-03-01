@@ -239,6 +239,7 @@ li {
 
 .m-row {
     background-color: #f4f4f4;
+    margin-top: 20px;
 }
 
 .square {
@@ -336,3 +337,32 @@ li {
 .azzurro {
     background-color: #00c3ff;
 }
+
+.riga button {
+    border:0;
+}
+
+.freq {
+    width: 80%;
+    margin:0 auto;
+}
+
+h6 {
+    padding: 20px 0;
+}
+
+.righe hr {
+    width: 100%;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin-top: 30px;
+  }
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
