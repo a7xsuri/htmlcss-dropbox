@@ -108,7 +108,7 @@ span {
     margin-top: 40vh;
 }
 
-.gen-row h2, .cent-row h2 {
+h2 {
     font-size: 50px;
     padding-bottom: 30px;
 }
@@ -237,6 +237,10 @@ li {
     color: black;
 }
 
+.m-row {
+    background-color: #f4f4f4;
+}
+
 .square {
     width: calc(100% / 3);
     padding: 0 25px 40px 0;
@@ -244,4 +248,91 @@ li {
 
 .square img {
     width: 100%;
+}
+
+.designit {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mini-square {
+    width: 400px;
+    height: 400px;
+}
+
+.fifty {
+    width: 100vh;
+    float: left;
+    position: relative;
+}
+
+.mini-square div {
+    width: 200px;
+    height:200px;
+}
+
+.mini-square div img {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.midd-testo {
+    width: 47%;
+    padding: 50px 20px;
+}
+
+.midd-testo img, .midd-testo hr {
+    width: 20%;
+}
+
+.midd-testo p {
+    padding-top: 40px;
+}
+
+.blue-part {
+    padding: 60px 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blue-part h2 {
+    float: left;
+    width: 70%;
+    color:rgb(129, 43, 43);
+}
+
+.green {
+    background-color: #e4ffb5;
+    border: 9px #cff9cf solid;
+}
+
+.red-fire {
+    background-color: red;
+}
+
+.red {
+    background-color: rgb(195, 45, 45);
+}
+
+.brown{
+    background-color: brown;
+}
+
+.blue {
+    background-color:#2323ad;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.azzurro {
+    background-color: #00c3ff;
 }
