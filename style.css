@@ -175,6 +175,7 @@ hr {
 li {
     list-style-type: none;
     padding-left: 10px;
+    margin-left: -10px;
 }
 
 .true {
@@ -365,4 +366,27 @@ h6 {
 .up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
+  }
+
+  footer{
+      background-color: black;
+      margin-top: 30px;
+  }
+
+  .mini-menu-foot {
+      color: white;
+      width: calc(100% / 5);
+  }
+
+  .menu-foot {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .menu-foot hr {
+      margin: 40px 0;
+  }
+  .menu-foot img {
+      width: 20%;
+      filter: grayscale(1);
   }
