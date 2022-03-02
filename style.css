@@ -352,7 +352,7 @@ h6 {
     padding: 20px 0;
 }
 
-.righe hr {
+.riga hr {
     width: 100%;
 }
 
@@ -365,7 +365,6 @@ h6 {
 
 .up {
     transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
   }
 
   footer{
@@ -386,7 +385,52 @@ h6 {
   .menu-foot hr {
       margin: 40px 0;
   }
-  .menu-foot img {
-      width: 20%;
-      filter: grayscale(1);
+  
+  .cento {
+      width: 100%;
   }
+
+.ita {
+    color:white;
+}
+
+.arrow-white {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin-top: 13px;
+    margin-left: 5px;
+  }
+
+  .txt {
+      display: none;
+      transition: 1.5s;
+      width: 100%;
+  }
+
+ .riga:hover p {
+      display: block;
+      padding-bottom: 10px;
+  }
+
+ .riga:hover span {
+      transform: rotate(45deg);
+  }
+
+  .tendina {
+    position:relative;
+}
+
+  .none {
+      display: none;
+      position: absolute;
+      width: 5%;
+      height: 50px;
+    top: 50px;
+    background-color: white;
+  }
+
+    .tendina:hover + .none {
+      display: block;
+  }
+
